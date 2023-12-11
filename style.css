@@ -10,7 +10,7 @@
 h2{
     font-size: 56px;
 }
-h3{
+.container h3{
     font-size: 28px;
 }
 
@@ -60,7 +60,7 @@ h1{
     text-align: center;
 }
 
-p{
+.container1 p{
     font-size: 24px;
     text-align: center;
 }
@@ -92,4 +92,35 @@ p{
     p{
         font-size: 24px;
     }
+}
+
+.container2{
+    display: flex;
+    padding: 20px;
+}
+.container3{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+    border-radius: 10px;
+    
+}
+.container3 h3{
+    color: white;
+    font-family: Arial;
+}
+.container3 p{
+    color: white;
+    font-family: Arial;
+}
+.container3 a{
+    color:dodgerblue;
+}
+.container3 button{
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 10px;
 }
