@@ -1,51 +1,57 @@
-.body{
+.body {
     margin: 0;
     font-family: Arial;
 }
-.container{
-    height:100vh;
+
+.container {
+    height: 100vh;
     background: url(images/apple1.jpg) no-repeat;
-    background-size:cover ;
+    background-size: cover;
     background-position: center;
 }
-h2{
+
+h2 {
     font-size: 56px;
 }
-.container h3{
+
+.container h3 {
     font-size: 28px;
 }
 
 @media all and (min-width:320px) and (max-width:480px) {
     .container h2 {
-        font-size:32px ;
+        font-size: 32px;
     }
+
     .container h3 {
         font-size: 19px;
     }
 }
 
-@media all and (min-width:769px) and (max-width:1024px){
+@media all and (min-width:769px) and (max-width:1024px) {
     .container h2 {
-        font-size:48px ;
+        font-size: 48px;
     }
+
     .container h3 {
         font-size: 24px;
     }
 
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-around;
-   
-    
+
+
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
 
-.container1{
+.container1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,68 +59,74 @@ a{
     margin-right: 30%;
     margin-top: 15px;
     padding-top: 20px;
-    
- 
-}
-.containerPrincipal{
-    background-color: #F5F5F7 ;
-    padding-bottom: 50px;
+
+
 }
 
-.container1 h1{
+.containerPrincipal {
+    background-color: #F5F5F7;
+    padding-bottom: 50px;
+   
+}
+
+.container1 h1 {
     font-size: 96px;
     text-align: center;
 }
 
-.container1 p{
+.container1 p {
     font-size: 24px;
     text-align: center;
 }
 
-@media all and (max-width:1024px){
-    h1{
+@media all and (max-width:1024px) {
+    h1 {
         font-size: 48px;
     }
-    p{
+
+    p {
         font-size: 17px;
     }
 
 }
 
-@media all and (min-width:1025px) and (max-width:1200px){
-    h1{
+@media all and (min-width:1025px) and (max-width:1200px) {
+    h1 {
         font-size: 48px;
     }
-    p{
+
+    p {
         font-size: 21px;
     }
 
 }
 
 @media all and (min-width:1201px) {
-    h1{
+    h1 {
         font-size: 64px;
     }
-    p{
+
+    p {
         font-size: 24px;
     }
 }
 
 
 
- /**SEGUNDA PAGINA**/
+/**SEGUNDA PAGINA**/
 
-.container2{
+.container2 {
     display: flex;
     justify-content: center;
     gap: 30px;
     margin-top: 30px;
     
+
 }
 
 
 
-.containerHomePod{
+.containerHomePod {
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -122,32 +134,37 @@ a{
     align-items: center;
     width: 37%;
     border-radius: 10px;
-    
+
 }
-.containerHomePod h3{
+
+.containerHomePod h3 {
     color: white;
     font-family: Arial;
 }
-.containerHomePod p{
+
+.containerHomePod p {
     color: white;
     font-family: Arial;
 }
-.containerHomePod a{
-    color:dodgerblue;
+
+.containerHomePod a {
+    color: dodgerblue;
 }
-.containerHomePod button{
+
+.containerHomePod button {
     color: white;
     background-color: dodgerblue;
     border-radius: 10px;
+    border: 1px black;
 }
 
-.containerHomePod_1{
+.containerHomePod_1 {
     padding-bottom: 143px;
 }
 
 
 
-.containerHomePodmini{
+.containerHomePodmini {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -155,33 +172,41 @@ a{
     align-items: center;
     width: 37%;
     border-radius: 10px;
-   
+
 
 }
-.containerHomePodmini h3{
+
+.containerHomePodmini h3 {
     color: black;
     font-family: Arial;
 }
-.containerHomePodmini p{
+
+.containerHomePodmini p {
     color: black;
     font-family: Arial;
 }
-.containerHomePodmini a{
-    color:dodgerblue;
+
+.containerHomePodmini a {
+    color: dodgerblue;
 }
-.containerHomePodmini button{
+
+.containerHomePodmini button {
     color: white;
     background-color: dodgerblue;
     border-radius: 10px;
+    border: 1px black;
 }
-.containerHomePodmini_1{
+
+.containerHomePodmini_1 {
     padding-bottom: 125px;
 }
-img{
+
+img {
     height: auto;
     width: 100%;
 }
-.containerTv4K{
+
+.containerTv4K {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -189,70 +214,122 @@ img{
     align-items: center;
     width: 37%;
     border-radius: 10px;
-   
+
 
 }
-.containerTv4K h3{
+
+.containerTv4K h3 {
     color: black;
     font-family: Arial;
 }
-.containerTv4K p{
+
+.containerTv4K p {
     color: black;
     font-family: Arial;
 }
-.containerTv4K a{
-    color:dodgerblue;
+
+.containerTv4K a {
+    color: dodgerblue;
 }
-.containerTv4K button{
+
+.containerTv4K button {
     color: white;
     background-color: dodgerblue;
     border-radius: 10px;
+    border: 1px black;
+   
 }
-.containerTv4K_1{
+
+.containerTv4K_1 {
     padding-bottom: 135px;
 }
 
 
-.containerAppCasa{
+.containerAppCasa {
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 37%;
     border-radius: 10px;
-    
-   
+
+
 
 }
-.containerAppCasa h3{
+
+.containerAppCasa h3 {
     color: black;
     font-family: Arial;
 }
-.containerAppCasa p{
+
+.containerAppCasa p {
     color: black;
     font-family: Arial;
 }
-.containerAppCasa a{
-    color:dodgerblue;
+
+.containerAppCasa a {
+    color: dodgerblue;
 }
-.containerAppCasa button{
+
+.containerAppCasa button {
     color: white;
     background-color: dodgerblue;
     border-radius: 10px;
 }
 
-.containerAppCasa img{
+.containerAppCasa img {
     padding-top: 170px;
-    
+
 }
-.container2_1{
+
+.container2_1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 30px;
     margin-top: 30px;
-    
+  
+
 }
-h3{
+
+h3 {
     text-align: center;
+    font-size: 36px;
+}
+
+@media all and (min-width:320px) and (max-width:1200px) {
+    h3 {
+        font-size: 24px;
+    }
+
+}
+
+@media all and (min-width:320px) and (max-width:480px) {
+  .container2{
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+   
+   
+  }
+  .container2_1{
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+  }
+  .containerHomePod{
+    width: 60%;
+  }
+  .containerHomePodmini{
+    width: 60%;
+  }
+  .containerAppCasa{
+    width: 60%;
+  }
+  .containerTv4K{
+    width: 60%;
+  }
+
 }
